@@ -147,4 +147,3 @@ const handleShowAll = () => {
 
 };
 
-loadData();
