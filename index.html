@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI-UNIVERS-HUB</title>
+	<!-- Tailwind + Daisy Link -->
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- Icone Link -->
+	<script src="https://kit.fontawesome.com/0dcf451a98.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="">
+	<header class="container mx-auto">
+		<h1 class="text-5xl font-semibold text-center my-8  ">
+			AI Univers Hub
+		</h1>
+		<div class="flex justify-center mb-7">
+			<button onclick="loadData()" class="btn rounded-md bg-[#EB5757] text-white font-medium">Sort By
+				Date</button>
+		</div>
+
+	</header>
+
+	<main class="container mx-auto px-5 ">
+		<section>
+			<div id="card-container"
+				class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:justify-items-center gap-20 ">
+
+			</div>
+		</section>
+
+
+		<!-- MOdals -->
+		<!-- Open the modal using ID.showModal() method -->
+
+		<!-- You can open the modal using ID.showModal() method -->
+
+		<dialog id="single_data_modal" class="modal ">
+			<form id="modal-continer" method="dialog" class="modal-box  max-h-full max-w-7xl ">
+
+			</form>
+		</dialog>
+
+
+		<!-- Show all button -->
+		<section class="flex justify-center">
+			<div id="showAllBtn" class="hidden">
+				<button onclick="handleShowAll()" class="btn btn-wide bg-[#EB5757] text-white rounded-md">See
+					More</button>
+			</div>
+		</section>
+
+	</main>
+
+
+
+
+	<!-- JS Link -->
+	<script src="JS/aiUnivers.js"></script>
+</body>
+
+</html>
