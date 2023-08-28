@@ -27,7 +27,7 @@ const displayData = (datas, isClicked) => {
     card.innerHTML = `
         
                     <figure class="px-10 pt-10">
-                      <img src="${data.image}" alt="Shoes" class="rounded-xl" />
+                      <img src="${data.image}" alt="img" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-left text-left">
                     <h1 class="text-2xl font-bold">Features</h1>
@@ -114,7 +114,7 @@ const singleDataDetails=(info)=>{
 						<div class="card bg-base-100 border">
 							<figure class="px-10 pt-10">
 								<img src="${info.image_link[0]}"
-									alt="Shoes" class="rounded-xl" />
+									alt="img" class="rounded-xl" />
 							</figure>
 							<div class="card-body items-center text-center">
 								<h2 class="card-title">${info.input_output_examples[0].input}</h2>
